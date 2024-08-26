@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts", "src/App.tsx", "src/components/Auth.tsx", "src/components/ImagePrediction.tsx", "src/components/Navbar.tsx", "src/components/Whiteboard.tsx", "src/context/AuthContext.tsx", "src/hooks/useWebSocket.tsx", "src/services/keycloak.tsx", "src/services/WebSocketService.tsx"],
+    "exclude": ["node_modules"]
+  }
+  
